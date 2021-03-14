@@ -1,8 +1,9 @@
 module.exports = function reverse (n) {
   var num="";
-  for (var i=n.length-1;i>=0;i--)
+    var m = toString(n);
+  for (var i=m.length-1;i>=0;i--)
     {
-      num += n[i];
+      num += m[i];
     }
   return num;
 }
